@@ -1,7 +1,12 @@
 .App {
     display: flex;
     justify-content: center;
-    
+    border-style:groove;
+    border-width: 5px;
+    padding-bottom: 25px;
+    padding-left: 220px;
+    padding-right: 220px;
+    width: 400px;
   }
   
   input {
@@ -10,16 +15,34 @@
     margin: 10px 0;
     box-sizing: border-box;
   }
+
+  label {
+    font-weight: bold;
+  }
+
+  h2 {
+    font-style: italic;
+    color: rgb(19, 57, 226);
+  }
   
   button {
     width: 100%;
     padding: 5px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    background-color: lightslategray;
+    margin: 10px 0;
+    font-weight: 550;
+    background-color: rgb(97, 177, 60);
   }
 
   button:hover {
-    background-color: rgb(91, 177, 120);
+    background-color: rgb(40, 195, 209);
   }
+
+  .res {
+    text-align: center;
+    font-weight: bold;
+    /*border-style: inset;*/
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 5%;
+}
   
