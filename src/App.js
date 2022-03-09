@@ -70,7 +70,6 @@ class App extends React.Component {
             <button type="submit">Submit</button>
             <h2> {this.state.resultado_num} </h2>
             <h2> {this.state.classificacion} </h2>
-            <h2> {this.state.peso_sano} </h2>
           </form>
         </div>
       );
